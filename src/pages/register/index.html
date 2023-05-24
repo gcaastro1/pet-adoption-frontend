@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/src/styles/animation.css" />
+    <link rel="stylesheet" href="/src/styles/display.css" />
+    <link rel="stylesheet" href="/src/styles/spacings.css" />
+    <link rel="stylesheet" href="/src/styles/boxes.css" />
+    <link rel="stylesheet" href="/src/styles/texts.css" />
+    <link rel="stylesheet" href="/src/styles/inputs.css" />
+    <link rel="stylesheet" href="/src/styles/buttons.css" />
+    <link rel="stylesheet" href="/src/styles/images.css" />
+    <link rel="stylesheet" href="/src/styles/toast.css" />
+    <title>Petinfo - Register</title>
+  </head>
+  <body>
+    <main class="container main-box flex-row-btw">
+      <section id="form__box" class="flex-column">
+        <div class="flex-row-btw">
+          <h3 class="font-3 weight-500">Cadastro</h3>
+          <a
+            href="/index.html"
+            class="btn font-5 txt-grey-1 btn-outline"
+            >Voltar para o login</a
+          >
+        </div>
+        <form class="flex-column gap-26">
+          <div class="gap-12 flex-column">
+            <label for="username" class="font-4 weight-500">Usuário</label>
+            <input
+              type="text"
+              placeholder="Digite seu usuário aqui"
+              name="username"
+              id="username"
+            />
+          </div>
+          <div class="gap-12 flex-column">
+            <label for="email" class="font-4 weight-500">Email</label>
+            <input
+              type="email"
+              placeholder="Digite seu email aqui"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div class="gap-12 flex-column">
+            <label for="avatar" class="font-4 weight-500"
+              >Link da foto do perfil</label
+            >
+            <input
+              type="text"
+              placeholder="Insira o link aqui"
+              name="avatar"
+              id="avatar"
+            />
+          </div>
+          <div class="gap-12 flex-column">
+            <label for="password" class="font-4 weight-500">Senha</label>
+            <input
+              type="password"
+              placeholder="Digite sua senha aqui"
+              name="password"
+              id="password"
+            />
+          </div>
+          <button
+            class="btn btn-primary btn-md font-4 weight-500 btn-block txt-grey-9"
+            id="button__submit"
+          >
+            Cadastrar
+          </button>
+        </form>
+        <a
+          href="/index.html"
+          class="btn font-4 txt-grey-1 btn-md btn-outline btn-block"
+          >Voltar para o login</a
+        >
+      </section>
+      <section id="title__box__register" class="flex-column">
+        <h1 class="font-1">Petinfo</h1>
+        <h2 class="font-1 txt-primary">Ooooooba!</h2>
+        <p class="title-desc-box font-4 weight-400">
+          Agora vamos poder contribuir para o bem estar do seu pet por meio do
+          conhecimento
+        </p>
+        <div class="box-icons flex-row">
+          <img src="/src/img/jpg/cat-3.jpg" class="pets-icon width-90" />
+          <div class="gap-18 flex-column-btw">
+            <div class="gap-18 flex-row">
+              <img
+                src="/src/img/jpg/cat-4.jpg"
+                class="pets-icon width-90 height-90"
+              />
+              <img
+                src="/src/img/jpg/dog-3.jpg"
+                class="pets-icon width-90 height-90"
+              />
+            </div>
+            <img src="/src/img/jpg/cat-5.jpg" class="pets-icon height-90" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/scripts/register.js"></script>
+  </body>
+</html>

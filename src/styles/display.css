@@ -1,0 +1,29 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-btw {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column-btw {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: end;
+}

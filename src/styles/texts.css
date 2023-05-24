@@ -1,0 +1,65 @@
+.font-1 {
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.font-2 {
+  font-size: 24px;
+  line-height: 150%;
+}
+
+
+.font-3 {
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.font-4 {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.font-5 {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.weight-400 {
+  font-weight: 400;
+}
+
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-600 {
+  font-weight: 600;
+}
+
+.txt-primary {
+  color: var(--brand100);
+}
+
+.txt-grey-1 {
+  color: var(--gray100);
+}
+
+.txt-grey-3 {
+  color: var(--gray300);
+}
+
+.txt-grey-4 {
+  color: var(--gray400);
+}
+
+.txt-grey-9 {
+  color: var(--gray900);
+}
+
+.txt-alert {
+  color: var(--alert100);
+}
+
+.txt-success {
+  color: var(--sucess100);
+}

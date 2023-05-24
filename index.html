@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/src/styles/animation.css" />
+    <link rel="stylesheet" href="/src/styles/display.css" />
+    <link rel="stylesheet" href="/src/styles/boxes.css" />
+    <link rel="stylesheet" href="/src/styles/spacings.css" />
+    <link rel="stylesheet" href="/src/styles/texts.css" />
+    <link rel="stylesheet" href="/src/styles/inputs.css" />
+    <link rel="stylesheet" href="/src/styles/buttons.css" />
+    <link rel="stylesheet" href="/src/styles/images.css" />
+    <link rel="stylesheet" href="/src/styles/toast.css" />
+    <title>Petinfo - Login</title>
+  </head>
+  <body>
+    <main class="container main-box flex-row-btw">
+      <section id="title__box" class="flex-column">
+        <h1 class="font-1">Petinfo</h1>
+        <h2 class="font-1">
+          <span class="txt-primary">Amor</span> e
+          <span class="txt-primary">carinho</span> por meio do conhecimento
+        </h2>
+        <p class="title-desc-box font-4 weight-400">
+          Todas as informações para melhorar a vida do seu pet em um só lugar
+        </p>
+        <div class="box-icons flex-row">
+          <div class="gap-18 flex-column-btw">
+            <div class="gap-18 flex-row">
+              <img
+                src="/src/img/jpg/cat-1.jpg"
+                class="pets-icon width-90 height-90"
+              />
+              <img
+                src="/src/img/jpg/dog-1.jpg"
+                class="pets-icon width-90 height-90"
+              />
+            </div>
+            <img src="/src/img/jpg/dog-2.jpg" class="pets-icon height-90" />
+          </div>
+          <img src="/src/img/jpg/cat-2.jpg" class="pets-icon width-90" />
+        </div>
+      </section>
+      <section id="form__box" class="flex-column">
+        <h3 class="font-3 weight-500">Login</h3>
+        <form class="flex-column gap-26">
+          <div class="gap-12 flex-column" id="email__input">
+            <label for="email" class="font-4 weight-500">Email</label>
+            <input
+              type="email"
+              placeholder="Digite seu email aqui"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div class="gap-12 flex-column" id="pass__input">
+            <label for="password" class="font-4 weight-500">Senha</label>
+            <input
+              type="password"
+              placeholder="Digite sua senha aqui"
+              name="password"
+              id="password"
+            />
+          </div>
+
+          <button
+            class="btn btn-md btn-primary font-4 weight-500 btn-block txt-grey-9"
+            id="login__button"
+          >
+            Acessar
+          </button>
+        </form>
+        <div class="description-box flex-column">
+          <p class="font-5 weight-500">Ainda não possui conta?</p>
+          <p class="font-5 weight-400">
+            Clicando no botão abaixo, você pode se cadastrar rapidamente
+          </p>
+        </div>
+        <a
+          href="/src/pages/register/index.html"
+          class="btn btn-md font-4 txt-grey-1 btn-outline btn-block"
+          >Cadastrar</a
+        >
+      </section>
+    </main>
+    <script type="module" src="src/scripts/login.js"></script>
+  </body>
+</html>

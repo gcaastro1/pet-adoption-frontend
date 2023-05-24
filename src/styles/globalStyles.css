@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand100:  #364FC7;
+  --brand200:  #3B56D9;
+  --gray100:   #212529;
+  --gray200:   #343A40;
+  --gray300:   #495057;
+  --gray400:   #868E96;
+  --gray500:   #ADB5BD;
+  --gray600:   #E9ECEF;
+  --gray700:   #F1F3F5;
+  --gray800:   #F8F9FA;
+  --gray900:   #FCFEFF;
+  --alert100:  #C73650;
+  --alert200:  #DB3C58;
+  --sucess100: #087F5B;
+
+  /* Border Radius */
+  --radius: 4px;
+
+  /* Transition */
+  --transition-default: all .5s ease;
+}
+
+body {
+  /* font-family: "Inter, sans-serif"; */
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: var(--gray100);
+}
+
+.container {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+ul > li {
+  list-style: none;
+}

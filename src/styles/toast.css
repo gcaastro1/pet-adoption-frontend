@@ -1,0 +1,29 @@
+.toast-container {
+  width: 380px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--gray900);
+  border-radius: var(--radius);
+  padding: 20px 32px;
+  box-shadow: 0px 4px 40px -12px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+  animation: toastIt 5000ms ease-in forwards;
+}
+
+.success-toast {
+  width: 24px;
+  height: 24px;
+  background-color: var(--sucess100);
+  padding: 4.5px;
+  border-radius: 100%;
+}
+
+.error-toast {
+  width: 24px;
+  height: 24px;
+  background-color: var(--alert100);
+  padding: 4.5px;
+  border-radius: 100%;
+}

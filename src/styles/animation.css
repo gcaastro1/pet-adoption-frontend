@@ -1,0 +1,64 @@
+@keyframes contentAppear {
+  0% {
+    transform: translatex(-100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes dropAppear {
+  0% {
+    transform: translatey(-50%);
+  }
+  100%{
+    transform: translatey(0);
+  }
+}
+
+@keyframes modalAppear {
+  0% {
+    transform: translatey(-100%);
+  }
+  100%{
+    transform: translatey(0);
+  }
+}
+
+@keyframes modalOut {
+  0% {
+    transform: translatey(0);
+  }
+  100%{
+    transform: translatey(-100%);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes toastIt {
+  0% {
+    right: -400px;
+    bottom: 30px;
+  }
+  25% {
+    right: 10px;
+    bottom: 30px;
+  }
+  50% {
+    right: 10px;
+    bottom: 30px;
+  }
+  100% {
+    right: -400px;
+    bottom: 30px;
+  }
+  
+}

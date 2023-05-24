@@ -1,0 +1,25 @@
+input, textarea {
+  padding: 16px;
+  outline: none;
+  background-color: var(--gray800);
+  border: 1px solid  var(--gray600);
+  color: var(--gray100);
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: var(--radius);
+  transition: background .5s ease;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border: 1px solid var(--gray100);
+  background-color: var(--gray900);
+  transition: var(--transition-default);
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
